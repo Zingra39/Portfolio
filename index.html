@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Gustavo Zingra</title>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    backgroundImage: {
+                        'tech-image': "url('/imagens/Free Vector _ Neon synthwave  border on a dark purple blog banner template vector.jpg')",
+                        'person-image': "url('/imagens/fundo_cvs2.png')",
+                        'github-image': "url('/imagens/github_ativo.png')",
+                        'linkedin-image': "url('/imagens/linkedin_ativo.png')",
+                    },
+                    backgroundPosition: {
+                        'person': 'center right 5rem'
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <header class="grid grid-cols-2 p-5 bg-gray-900">
+        <a id="downloadLink" class="text-white justify-self-start text-xl" href="/documents/CV_GUSTAVO.pdf">CV Gustavo P. Zingra</a>
+        <!-- <nav>
+            <ol class="flex gap-4 justify-end text-white">
+                <li>
+                    <a href="" class="hover:text-purple-600 transition duration-500">HOME</a>
+                </li>
+                <li>
+                    <a href="" class="hover:text-purple-600 transition duration-500">SOBRE</a>
+                </li>
+                <li>
+                    <a href="" class="hover:text-purple-600 transition duration-500">GALERIA</a>
+                </li>
+            </ol>
+        </nav> -->
+
+    </header>
+
+    <main>
+        <!-- HOME -->
+        <section class="h-screen p-6 w-full bg-cover bg-tech-image bg-no-repeat">
+            <div class="h-full flex items-center bg-person-image bg-no-repeat bg-person">
+                <div class="absolute w-6/12 left-60 self-center">
+                    <h1 class="bg-white p-2 text-4xl font-bold text-purple-600 ">Gustavo Zingra</h1>
+                    <p class="text-white text-lg p-1">
+                        Olá, meu nome é Gustavo, um entusiasta de programação atualmente cursando Ciência da Computação.
+                        Movido por uma paixão inabalável pela área, busco incessantemente me aprimorar como
+                        desenvolvedor FullStack. Minha dedicação e comprometimento com cada projeto que abraço são
+                        fundamentais para alcançar esse objetivo.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ABOUT -->
+        <section class="p-6 w-full bg-gray-800">
+            <div class="container mx-auto my-14">
+                <h2 class="text-5xl text-center text-purple-700 font-semibold">Sobre Mim</h2>
+                <div class="flex items-center justify-center gap-10 my-10">
+                    <img src="/imagens/Screenshot_1.png" class="w-1/4 border-solid border-2 border-purple-400">
+                    <div class="text-white w-2/5">
+                        <h6 class="text-xl mb-2">Meu nome é <span class="text-purple-700 font-semibold">Gustavo
+                                Zingra</span>,</h6>
+                        <p class="text-lg leading-relaxed">
+                            tenho 21 anos, moro em Campinas-SP , e atualmente estou cursando Ciências da Computação na
+                            UNIP
+                            (Universidade Paulista). Escolhi cursar Ciência da Computação, pois acredito que a
+                            tecnologia é
+                            uma grande aliada do homem no tempo em que nos encontramos e com ela podemos facilitar
+                            a vida de muitas pessoas. Estou sempre em busca de oportunidades para aprimorar meus
+                            conhecimentos e habilidades, buscando estar atualizado com as últimas tendências e avanços
+                            tecnológicos. Me considero um profissional comprometido, com uma mentalidade proativa,
+                            pronto
+                            para enfrentar novos desafios e entregar resultados excepcionais. Estou aberto a
+                            oportunidades
+                            empolgantes e colaborativas que possam expandir meus horizontes e levar a empresa a
+                            patamares
+                            ainda mais altos.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SKILLS -->
+        <section class="p-6 w-full bg-gray-900">
+            <div class="container mx-auto my-8">
+                <h2 class="text-5xl text-center text-purple-700 font-semibold">Skills</h2>
+                <div class="flex justify-center flex-wrap gap-8 my-10">
+                    <div class="grid items-center  grid-cols-2 w-3/12 bg-stone-300 rounded-l-xl shadow-xl">
+                        <img src="/imagens/css.png" alt="css" class="w-20 h-16 rounded-l-xl">
+                        <h4 class="text-purple-700 font-bold text-2xl">CSS</h4>
+                    </div>
+                    <div class="grid items-center grid-cols-2 w-3/12 bg-stone-300 rounded-l-xl shadow-xl">
+                        <img src="/imagens/html.png" alt="html" class="w-20 h-16 rounded-l-xl">
+                        <h4 class="text-purple-700 font-bold text-2xl">HTML</h4>
+                    </div>
+                    <div class="grid items-center grid-cols-2 w-3/12 bg-stone-300 rounded-l-xl shadow-xl">
+                        <img src="/imagens/TAILWIND.png" alt="tailwind" class="w-20 h-16 rounded-l-xl">
+                        <h4 class="text-purple-700 font-bold text-2xl">Tailwind</h4>
+                    </div>
+                    <div class="grid items-center grid-cols-2 w-3/12 bg-stone-300 rounded-l-xl shadow-xl">
+                        <img src="/imagens/bootstrap.jpg" alt="bootstrap" class="w-20 h-16 rounded-l-xl">
+                        <h4 class="text-purple-700 font-bold text-2xl">Bootstrap</h4>
+                    </div>
+                    <div class="grid items-center grid-cols-2 w-3/12 bg-stone-300 rounded-l-xl shadow-xl">
+                        <img src="/imagens/CSHARP.png" alt=".net" class="w-20 h-16 rounded-l-xl">
+                        <h4 class="text-purple-700 font-bold text-2xl">.NET</h4>
+                    </div>
+                    <div class="grid items-center grid-cols-2 w-3/12 bg-stone-300 rounded-l-xl shadow-xl">
+                        <img src="/imagens/python.png" alt="python"
+                            class="border-solid border-2 dorder-gray-900 w-20 h-16 rounded-l-xl">
+                        <h4 class="text-purple-700 font-bold text-2xl">Python</h4>
+                    </div>
+                    <div class="grid items-center grid-cols-2 w-3/12 bg-stone-300 rounded-l-xl shadow-xl">
+                        <img src="/imagens/java.png" alt="java"
+                            class="border-solid border-2 dorder-gray-900 w-20 h-16 rounded-l-xl">
+                        <h4 class="text-purple-700 font-bold text-2xl">Java</h4>
+                    </div>
+                    <div class="grid items-center grid-cols-2 w-3/12 bg-stone-300 rounded-l-xl shadow-xl">
+                        <img src="/imagens/MySQL.png" alt="MySQL"
+                            class="border-solid border-2 dorder-gray-900 w-20 h-16 rounded-l-xl">
+                        <h4 class="text-purple-700 font-bold text-2xl">MySQL</h4>
+                    </div>
+                    <div class="grid items-center grid-cols-2 w-3/12 bg-stone-300 rounded-l-xl shadow-xl">
+                        <img src="/imagens/SQLSERVER.png" alt="SQLSERVER"
+                            class="border-solid border-2 dorder-gray-900 w-20 h-16 rounded-l-xl">
+                        <h4 class="text-purple-700 font-bold text-2xl">SQL Server</h4>
+                    </div>
+                    <div class="grid items-center grid-cols-2 w-3/12 bg-stone-300 rounded-l-xl shadow-xl">
+                        <img src="/imagens/Selenium.png" alt="Selenium" class="w-20 h-16 rounded-l-xl">
+                        <h4 class="text-purple-700 font-bold text-2xl">Selenium</h4>
+                    </div>
+                    <div class="grid items-center grid-cols-2 w-3/12 bg-stone-300 rounded-l-xl shadow-xl">
+                        <img src="/imagens/sass.png" alt="sass" class="w-20 h-16 rounded-l-xl">
+                        <h4 class="text-purple-700 font-bold text-2xl">Sass</h4>
+                    </div>
+                    <div class="grid items-center grid-cols-2 w-3/12 bg-stone-300 rounded-l-xl shadow-xl">
+                        <img src="/imagens/AZURE.jpg" alt="AZURE"
+                            class="border-solid border-2 dorder-gray-900 w-20 h-16 rounded-l-xl">
+                        <h4 class="text-purple-700 font-bold text-2xl">Azure</h4>
+                    </div>
+                    <div class="grid items-center grid-cols-2 w-3/12 bg-stone-300 rounded-l-xl shadow-xl">
+                        <img src="/imagens/javascript.png" alt="javascript"
+                            class="border-solid border-2 dorder-gray-900 w-20 h-16 rounded-l-xl">
+                        <h4 class="text-purple-700 font-bold text-2xl">JavaScript</h4>
+                    </div>
+                    <div class="grid items-center grid-cols-2 w-3/12 bg-stone-300 rounded-l-xl shadow-xl">
+                        <img src="/imagens/GIT.png" alt="Git"
+                            class="border-solid border-2 dorder-gray-900 w-20 h-16 rounded-l-xl">
+                        <h4 class="text-purple-700 font-bold text-2xl">Git</h4>
+                    </div>
+                    <div class="grid items-center grid-cols-2 w-3/12 bg-stone-300 rounded-l-xl shadow-xl">
+                        <img src="/imagens/Power-Apps.png" alt="Power-Apps"
+                            class="border-solid border-2 dorder-gray-900 w-20 h-16 rounded-l-xl">
+                        <h4 class="text-purple-700 font-bold text-2xl">Power Apps</h4>
+                    </div>
+                    <div class="grid items-center grid-cols-2 w-3/12 bg-stone-300 rounded-l-xl shadow-xl">
+                        <img src="/imagens/automate.png" alt="power automate"
+                            class="border-solid border-2 dorder-gray-900 w-20 h-16 rounded-l-xl">
+                        <h4 class="text-purple-700 font-bold text-2xl">Power Automate</h4>
+                    </div>
+                    <div class="grid items-center grid-cols-2 w-3/12 bg-stone-300 rounded-l-xl shadow-xl">
+                        <img src="/imagens/EF.png" alt="Entity Framework"
+                            class="border-solid border-2 dorder-gray-900 w-20 h-16 rounded-l-xl">
+                        <h4 class="text-purple-700 font-bold text-2xl">Entity Framework</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- EXPERIENCE -->
+        <section class="p-6 w-full bg-gray-800">
+            <div class="container mx-auto my-8">
+                <h2 class="text-5xl text-center text-purple-700 font-semibold">Experiência</h2>
+                <div class="flex flex-col gap-y-20 my-10">
+                    <div class="flex gap-x-10">
+                        <img src="/imagens/maminfo.jpg" alt="maminfo" class="w-3/12 shadow-xl rounded">
+                        <div>
+                            <h3 class="text-purple-500 text-2xl font-bold">MAMINFO<span
+                                    class="text-gray-400 italic text-sm underline-none">__________________________julho/2021
+                                    - março/2022</span></h3>
+                            <ul class="text-white mt-4">
+                                <li class="mt-3">
+                                    <p>Atendimento a chamados internos e externos através de uma ERP, proporcionando
+                                        soluções rápidas e eficientes</p>
+                                </li>
+                                <li class="mt-3">
+                                    <p>Realização de manutenção em notebooks, instalação de software e cadastro de
+                                        colaboradores na rede</p>
+                                </li>
+                                <li class="mt-3">
+                                    <p>Elaboração de relatórios detalhados sobre cada chamado, fornecendo status e
+                                        esclarecendo as ações tomadas</p>
+                                </li>
+                                <li class="mt-3">
+                                    <p>Prestação de suporte externo na instalação e manutenção de equipamentos de redes
+                                        avançadas, como CISCO, MERAKI, RUCKUS e FORTNET</p>
+                                </li>
+                                <li class="mt-3">
+                                    <p>Colaboração com times de outras empresas de redes, como VIVO, para garantir uma
+                                        implementação eficiente dos serviços</p>
+                                </li>
+                                <li class="mt-3">
+                                    <p>Realização de análises técnicas em equipamentos, identificando problemas e
+                                        encaminhando técnicos para solucionar os problemas identificados</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="flex gap-x-10">
+                        <div class="text-right w-9/12">
+                            <h3 class="text-purple-500 text-2xl font-bold">NeoEnergia Elektro<span
+                                    class="text-gray-400 italic text-sm underline-none">__________________________
+                                    março/2022 - atualmente</span></h3>
+                            <ul class="text-white text-right mt-4">
+                                <li class="mt-3">
+                                    <p>Realização de Testes de Software com foco em qualidade e confiabilidade</p>
+                                </li>
+                                <li class="mt-3">
+                                    <p>Implementação de testes automatizados utilizando .NET, Selenium e NUnit</p>
+                                </li>
+                                <li class="mt-3">
+                                    <p>Resolução de problemas e colaboração efetiva com equipe de desenvolvimento</p>
+                                </li>
+                                <li class="mt-3">
+                                    <p>Planejamento, projeção e execuçã de testes abrangentes, abordando diversos
+                                        cenários de uso</p>
+                                </li>
+                                <li class="mt-3">
+                                    <p>Comprometido com a excelência na entrega de projetos, priorizando a satisfação do
+                                        cliente e a otimização de recursos</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <img src="/imagens/elektro.png" alt="NeoEnergia - Elektro" class="w-3/12 shadow-xl rounded">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="p-5 bg-gray-900">
+        <h5 class="text-white text-lg">Contatos: </h5>
+        <div class="flex justify-between items-center my-2">
+            <div>
+                <ol class="text-white">
+                    <li>
+                        <p><span class="font-medium">Tel.:</span> (19)99218-0562</p>
+                    </li>
+                    <li>
+                        <p><span class="font-medium">Email:</span> gustavozingra@gmail.com</p>
+                    </li>
+                </ol>
+            </div>
+            <div>
+                <ol class="flex items-center gap-x-4">
+                    <li>
+                        <a src="/imagens/github_ativo.png"
+                            class="bg-github-image bg-no-repeat bg-center bg-contain text-9xl text-transparent opacity-50 hover:opacity-100 trasition duration-500"
+                            href="https://github.com/Zingra39">a</a>
+                    </li>
+                    <li>
+                        <a src="/imagens/github_ativo.png"
+                            class="bg-linkedin-image bg-no-repeat bg-center bg-contain text-9xl text-transparent opacity-50 hover:opacity-100 trasition duration-500"
+                            href="https://www.linkedin.com/in/gustavozingra/">a</a>
+                    </li>
+                </ol>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const downloadLink = document.getElementById('downloadLink');
+        downloadLink.addEventListener('click', () => {
+          fetch('/documents/CV_GUSTAVO.pdf')
+            .then(response => response.blob())
+            .then(blob => {
+              const url = URL.createObjectURL(blob);
+              const a = document.createElement('a');
+              a.href = url;
+              a.download = 'CV_Gustavo-Zingra.pdf';
+              document.body.appendChild(a);
+              a.click();
+              document.body.removeChild(a);
+            });
+        });
+      </script>
+      
+</body>
+
+</html>
